@@ -39,7 +39,7 @@ jobs:
       with:
         platforms: linux/arm64, linux/amd64
         context: docker
-        file: Dockerfile.aarch64-unknown-linux-gnu
+        file: docker/Dockerfile.aarch64-unknown-linux-gnu
         push: true
         tags: ghcr.io/bbusse/cross-aarch64-unknown-linux-gnu:latest
 
